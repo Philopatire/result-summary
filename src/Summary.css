@@ -59,3 +59,17 @@
   color: hsl(241, 100%, 89%);
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .Summary .title {
+    font-size: 20px;
+  }
+  .Summary .task .text {
+    font-size: 17px;
+  }
+  .Summary button.next {
+    background-image: none;
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+  }
+}
