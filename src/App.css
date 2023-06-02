@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 0 10px 0px hsl(224, 30%, 27%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 740px;
+}
