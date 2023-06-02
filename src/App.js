@@ -40,7 +40,7 @@ let tasks = [
 
 function Attribute() {
   return (
-    <div class="attribution">
+    <div className="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Philopatire</a>
     </div>
@@ -52,7 +52,6 @@ function App() {
     return previousValue + CurrentValue.score
   }, 0)
   let total = tasks.length * 100
-  console.log(totalScore, total)
   return (
     <>
     <div className="App">

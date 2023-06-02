@@ -1,7 +1,7 @@
 .Result {
   flex-basis: 50%;
   background-image: linear-gradient(to top, hsl(241, 81%, 54%) 30%, hsl(252, 100%, 67%));
-  padding: 40px 60px;
+  padding: 40px 55px;
   border-radius: inherit;
   display: flex;
   align-items: center;
@@ -9,7 +9,7 @@
 }
 
 .Result .title {
-  font-size: 22px;
+  font-size: 25px;
   color: hsl(241, 100%, 89%);
   margin-bottom: 25px;
 }
@@ -27,7 +27,7 @@
 }
 
 .Result .score .value {
-  font-size: 50px;
+  font-size: 60px;
   color: #fff;
   font-weight: 800;
 }
@@ -42,7 +42,7 @@
 
 .Result .text h3 {
   color: #fff;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 15px;
 }
